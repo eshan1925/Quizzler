@@ -109,6 +109,7 @@ class _QuizPageState extends State<QuizPage> {
         Expanded(
           child: Padding(
             padding: EdgeInsets.all(15.0),
+            // ignore: deprecated_member_use
             child: FlatButton(
               textColor: Colors.white,
               color: Colors.green,
@@ -129,6 +130,7 @@ class _QuizPageState extends State<QuizPage> {
         Expanded(
           child: Padding(
             padding: EdgeInsets.all(15.0),
+            // ignore: deprecated_member_use
             child: FlatButton(
               color: Colors.red,
               child: Text(
